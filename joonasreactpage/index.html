@@ -3,9 +3,31 @@
     <head>
         <meta charset="UTF-8" />
         <title>Joonas' Own React Page</title>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(odd) {
+  background-color: #33dddd;
+}
+
+tr:nth-child(even) {
+  background-color: #008888;
+}
+</style>
+
     </head>
     <body>
         <div id="root"></div>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
         <script src="./bundle.js"></script>
     </body>
 </html>
